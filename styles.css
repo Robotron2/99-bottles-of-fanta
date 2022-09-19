@@ -1,0 +1,25 @@
+body{
+    background-color: #ff4c68;
+    opacity: 1;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 5%;
+}
+p{
+    font-size: 1.5rem;
+    color: white;
+}
+
+@media(max-width: 900px){
+    h1{
+        font-size: 2rem;
+        margin-bottom: 2%;
+        color: black;
+    }
+    p{
+        font-size: 1.2rem;
+        color: black;
+    }
+}
